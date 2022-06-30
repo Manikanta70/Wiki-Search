@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    font-family: "Roboto";
+    
+    
+
+}
+@keyframes example {
+    0%   {color: red;}
+    10%  {color:#1c11ed;}
+    20%  {color:#bf7815;}
+    30%  {color:#e310ce;}
+    40%  {color: rgb(62, 223, 17);}
+    50%  {color: blue;}
+    60%  {color:#c6cc0a;}
+    70%  {color:#84e0bd}
+    80%  {color:#84e087}
+    90%  {color:black}
+    100% {color: green;}
+}
+.heading {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    color:red;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+.wiki-search-header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    background:linear-gradient(#e5e82a,#90ed5a,#84e0bd,#3ae8e8,#e85ae1);
+}
+
+.wiki-logo {
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #030202;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 30px;
+    background: linear-gradient(#88ebda,#dde87d,#f5b0ed);
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
